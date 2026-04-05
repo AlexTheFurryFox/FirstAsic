@@ -8,13 +8,12 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+8-bit counter that has 8 different counting modes
 
 ## How to test
 
-Explain how to use your project
+using the pins mode 0 - 2 for the 8 different counting modes
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+8x LEDS
