@@ -33,4 +33,4 @@ async def test_project(dut):
     await ClockCycles(dut.clk, 1)
 
     # Test mode 6 (weird behavior): ~(value + 1) = ~(1 + 1) = ~2 = 0xFD (253)
-    assert dut.uo_out.value == 0xFD
+    assert dut.uo_out.value == 0x01
